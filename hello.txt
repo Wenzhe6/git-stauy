@@ -10,4 +10,7 @@ git概述
 	不需要进入编辑状态按下yy复制 按下p粘贴
 
         vim hello.txt  创建文本
-        
+
+	添加到暂存区 git add hello.txt
+	提交到本地库 git commit -m "hot-fix commit" hello.txt
+	合并分支     git merge hot-fix
